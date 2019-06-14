@@ -41,6 +41,9 @@ function production(cb) {
   //为生产环境， 预发环境删除less文件
   process.env.NODE_ENV = 'production'
   cleanLessForProducion()
+
+  //Other tasks
+  cb()
 }
 
 module.exports = {
