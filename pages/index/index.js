@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const Request = require('../../utils/Request.js')
 
 Page({
   data: {
@@ -50,5 +51,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  testApi:function(){
+    Request.get('/rest/inventory-service/AgencyInfo/query/findAgencyInfo').then(resp => console.log(resp))
   }
 })

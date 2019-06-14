@@ -1,0 +1,14 @@
+.hot_recommand .products {
+  width: 100vw;
+}
+.hot_recommand .products .product .name {
+  height: 12vw;
+  line-height: 6vw;
+  text-align: center;
+}
+.hot_recommand .products .product .brand {
+  padding-top: 2vw;
+  height: 6vw;
+  line-height: 6vw;
+  text-align: center;
+}

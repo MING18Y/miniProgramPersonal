@@ -1,0 +1,36 @@
+<view class='hot_recommand'>
+  <HomeTitleBar title={'热卖推荐'} more={(e) => this.more} isDisplayMore={false} />
+  <view class='products'>
+    <view class='product' onClick={(e) => this.productsClick(10647)}>
+      <view class='img_wrap'><img src={ivoclar} /></view>
+      <view class='brand'>义获嘉</view>
+      <view class='name'>义获嘉 OptraGate®三维立体开口器</view>
+    </view>
+    <view class='product' onClick={(e) => this.productsClick(853)}>
+      <view class='img_wrap'><img src={ormco} class='onegloss' /></view>
+      <view class='brand'>Ormco</view>
+      <view class='name'>Ormco Damon Q 金属自锁托槽套装（新包装</view>
+    </view>
+    <view class='product' onClick={(e) => this.productsClick(17269)}>
+      <view class='img_wrap'><img src={medicone} /></view>
+      <view class='brand'>麦迪康</view>
+      <view class='name'>麦迪康 Safe Basics 表面消毒湿巾</view>
+      
+    </view>
+    <view class='product' onClick={(e) => this.productsClick(10815)}>
+      <view class='img_wrap'><img src={despy} /></view>
+      <view class='brand'>登士柏</view>
+      <view class='name'>登士柏 K锉/K-FILE</view>
+    </view>
+    <view class='product' onClick={(e) => this.productsClick(127)}>
+      <view class='img_wrap'><img src={threeM} /></view>
+      <view class='brand'>3M</view>
+      <view class='name'>3M Filtek Z350XT 光固化纳米复合树脂</view>
+    </view>
+    <view class='product' onClick={(e) => this.productsClick(10550)}>
+      <view class='img_wrap'><img src={ezGc} /></view>
+      <view class='brand'>而至 GC</view>
+      <view class='name'>富士II 通用型玻璃离子水门汀（充填型）</view>
+    </view>
+  </view>
+</view>

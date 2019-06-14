@@ -8,6 +8,12 @@
     </block>
   </view>
   <view class="usermotto">
+    <button class="user-motto" bindtap='testApi'><text class="user-motto-text">测试</text></button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>

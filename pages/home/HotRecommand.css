@@ -10,8 +10,6 @@
   border-top: 1px solid #f5f5f5;
   border-left: 1px solid #f5f5f5;
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
 }
 .hot_recommand .products .product .product_mask {
   position: absolute;
