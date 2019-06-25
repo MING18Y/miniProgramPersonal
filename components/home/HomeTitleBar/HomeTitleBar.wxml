@@ -1,0 +1,8 @@
+<!--components/home/HomeTitleBar.wxml-->
+<view class='home_title_bar'>
+  <view>{{title}}</view>
+  <view class='more' bindtap="more">
+    <view>更多</view>
+    <image class='more-icon' mode="aspectFit" src="../../../assets/image/ArrowRight.png"></image>
+  </view>
+</view>

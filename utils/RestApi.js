@@ -18,7 +18,7 @@ function getHeader(appendHeader) {
   return headers
 }
 
-module.exports =  class Request {
+module.exports = class RestApi {
   static get(path, data, appendHeader){
     return new Promise((resolve, reject) => {
       wx.request({
@@ -27,7 +27,7 @@ module.exports =  class Request {
         data: data,
         header: getHeader(appendHeader),
         success: function(res) {
-          resolve(res)
+          resolve(res.data)
         },
         error: function(e){
           reject(e)

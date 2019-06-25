@@ -1,0 +1,8 @@
+<view class="branch_recommend">
+  <HomeTitleBar title="品牌推荐" bindtap="more" />
+  <view class="products">
+    <view class="product" wx:for="{{brandArr}}" wx:key="{{index}}">
+      <image class="product-img"  mode="widthFix" src="{{item.imgSrc}}"></image>
+    </view>
+  </view>
+</view>

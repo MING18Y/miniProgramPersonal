@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "HotRecommand": "/components/home/HotRecommand"
+    "HotRecommend": "../../components/home/HotRecommend/HotRecommend",
+    "BrandRecommend": "../../components/home/BrandRecommend/BrandRecommend",
+    "SubfieldRecommend": "../../components/home/SubfieldRecommend/SubfieldRecommend"
   }
 }

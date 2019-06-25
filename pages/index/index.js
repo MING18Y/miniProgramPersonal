@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-const Request = require('../../utils/Request.js')
+const RestApi = require('../../utils/RestApi.js')
 
 Page({
   data: {

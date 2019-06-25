@@ -1,0 +1,19 @@
+<HomeTitleBar title="{{subfieldData.columnName}}" isDisplayMore="false" bindtap="more" />
+<view class='subfield-recommend'>
+  <view class='products' wx:for="{{subfieldData.products}}" wx:key="index">
+    <view class='product' bindtap="redirctToProductDetail" data-productId="{{item.productId}}">
+      <view class='img_wrap' >
+        <image src="{{item.dataname}}" mode="aspectFit"/>
+      </view>
+      <view class='name'>{{item.productNameCn}}</view>
+      <view class='discount_wrap'>
+        <view>
+          <text class='discount' wx:if="{{item.promotion1}}">{{item.promotion1}}</text>
+          <text class='discount' wx:if="{{item.promotion2}}">{{item.promotion2}}</text>
+          <text class='discount' wx:if="{{item.promotion3}}">{{item.promotion3}}</text>
+          <text class='discount' wx:if="{{item.promotion4}}">{{item.promotion4}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

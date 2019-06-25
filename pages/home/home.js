@@ -1,25 +1,30 @@
 // pages/home/home.js
+const RestApi = require('../../utils/RestApi.js')
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    subfieldsData: [],
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    RestApi.get('/api/product/index').then(resp => {
+      this.setData({
+        subfieldsData: resp.data.columnInfo
+      })
+      console.log('2', this)
+    })
   },
 
   /**
@@ -62,5 +67,9 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  handleImageError: function () {
+    console.log('onImageError')
   }
 })

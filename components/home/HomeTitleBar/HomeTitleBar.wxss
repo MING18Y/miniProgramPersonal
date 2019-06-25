@@ -1,0 +1,27 @@
+.home_title_bar {
+  width: 100vw;
+  height: 3rem;
+  background: #ffffff;
+  position: relative;
+  padding-left: 0.68rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+  color: #333333;
+}
+.home_title_bar .more {
+  position: absolute;
+  right: 0.68rem;
+  top: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+.home_title_bar .more span {
+  width: 2.5rem;
+}
+.home_title_bar .more .more-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.68rem;
+}

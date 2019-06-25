@@ -1,38 +1,36 @@
-      <view class='home'>
-        <!-- <view class='search_bar_container'>
-          <HomeSearchBar
-            history={history}
-            showEnvSwitch={this.showEnvSwitch}
-            goToUserCenter={this.goToUserCenter}
-            goToSearch={this.goToSearch}
-            />
-        </view> -->
-        <!-- <view class='marquee_container'>
-          <Marquee banners={banners} history={history} />
-        </view> -->
-        <!-- <view class='category_container'>
-          <ActBanner history={history} />
-        </view> -->
+<view class='home'>
+  <!-- <view class='search_bar_container'>
+    <HomeSearchBar
+      history={history}
+      showEnvSwitch={this.showEnvSwitch}
+      goToUserCenter={this.goToUserCenter}
+      goToSearch={this.goToSearch}
+      />
+  </view> -->
+  <!-- <view class='marquee_container'>
+    <Marquee banners={banners} history={history} />
+  </view> -->
+  <!-- <view class='category_container'>
+    <ActBanner history={history} />
+  </view> -->
 
-        <view class='hot_recommend_container'>
-          <HotRecommend />
-        </view>
+  <view class='hot_recommend_container'>
+    <HotRecommend />
+  </view>
 
-        <!-- 
-        <view class='branch_recommend_container'>
-          <BranchRecommend />
-        </view> -->
+  <view class='branch_recommend_container'>
+    <BrandRecommend />
+  </view>
 
-        <!-- {
-          goods.map((item, index) => (
-            <view class='subfield_recommend_container' key={index}>
-              <SubfieldRecommend history={history} subfield={item} isLogin={isLogin} scrollTop={scrollTop} />
-            </view>
-          ))
-        } -->
+  <view class='subfield_recommend_container' wx:for="{{subfieldsData}}" wx:key="{{index}}">
+    <SubfieldRecommend 
+      subfield-data="{{item}}"
+      bindhandleImageError="handleImageError"
+      />
+  </view>
 
-        <!-- <view style={{ height: 3.4 + 'em' }} /> -->
-        <!-- <view class='footer_bar_container'>
-          <FooterBar history={history} rooter={'/home'} />
-        </view> -->
-      </view>
+  <!-- <view style={{ height: 3.4 + 'em' }} /> -->
+  <!-- <view class='footer_bar_container'>
+    <FooterBar history={history} rooter={'/home'} />
+  </view> -->
+</view>
