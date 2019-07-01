@@ -13,6 +13,7 @@
   <!-- <view class='category_container'>
     <ActBanner history={history} />
   </view> -->
+  <Swiper />
 
   <view class='hot_recommend_container'>
     <HotRecommend />

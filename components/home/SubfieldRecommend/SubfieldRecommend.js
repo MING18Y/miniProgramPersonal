@@ -42,9 +42,11 @@ Component({
       // var imgObject="carlistData["+errorImgIndex+"].img" //carlistData为数据源，对象数组
       // var errorImg={}
       // errorImg[imgObject]="https://w.chesudi.com/Public/web/img/onerrorcar.png" //我们构建一个对象
-
-      this.triggerEvent('handleImageError', {}, {})
-
+  
+      this.triggerEvent('handleImageError')
+  
     }
-  }
+  },
+
+  
 })

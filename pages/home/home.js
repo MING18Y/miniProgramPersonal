@@ -23,7 +23,6 @@ Page({
       this.setData({
         subfieldsData: resp.data.columnInfo
       })
-      console.log('2', this)
     })
   },
 

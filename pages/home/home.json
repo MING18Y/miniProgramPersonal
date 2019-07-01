@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "Swiper": "../../components/home/Swiper/Swiper",
     "HotRecommend": "../../components/home/HotRecommend/HotRecommend",
     "BrandRecommend": "../../components/home/BrandRecommend/BrandRecommend",
     "SubfieldRecommend": "../../components/home/SubfieldRecommend/SubfieldRecommend"
