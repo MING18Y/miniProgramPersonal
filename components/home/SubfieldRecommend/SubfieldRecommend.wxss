@@ -24,12 +24,8 @@
   height: 10rem;
 }
 .subfield-recommend .products .product .name {
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 30rpx;
   color: #333333;
-  min-height: 2rem;
-  max-height: 2rem;
   text-align: left;
   word-wrap: break-word;
   word-break: break-all;

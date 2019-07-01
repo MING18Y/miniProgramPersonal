@@ -7,8 +7,34 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "佳沃思商城",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {  
+    "color": "#a9b7b7",  
+    "selectedColor": "#11cd6e",  
+    "borderStyle": "black" ,
+    "list": [{  
+      "selectedIconPath": "assets/image/FooterBar/Home.png",  
+      "iconPath": "assets/image/FooterBar/HomeUnselected.png",  
+      "pagePath": "pages/home/home",  
+      "text": "首页"  
+    }, {  
+      "selectedIconPath": "assets/image/FooterBar/Sort.png",  
+      "iconPath": "assets/image/FooterBar/SortUnselected.png",  
+      "pagePath": "pages/logs/logs",  
+      "text": "分类"  
+    },{  
+      "selectedIconPath": "assets/image/FooterBar/ShoppingCar.png",  
+      "iconPath": "assets/image/FooterBar/ShoppingCarUnselected.png",  
+      "pagePath": "pages/index/index",  
+      "text": "购物车"  
+    },{  
+      "selectedIconPath": "assets/image/FooterBar/icon_mine_press.png",  
+      "iconPath": "assets/image/FooterBar/UsercenterSolidUnselected.png",  
+      "pagePath": "pages/index/index",  
+      "text": "我的"  
+    }]  
+  }, 
   "sitemapLocation": "sitemap.json"
 }

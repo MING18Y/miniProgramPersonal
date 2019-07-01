@@ -1,4 +1,4 @@
-/* page {
+page {
   background-color: #F8F8F8;
   height: 100%;
   font-size: 32rpx;
@@ -48,7 +48,7 @@
   font-size: 36rpx;
 }
 .demo-text-1:before{
-  content: 'A';
+  content: '演示轮播图A';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -63,7 +63,7 @@
   font-size: 36rpx;
 }
 .demo-text-2:before{
-  content: 'B';
+  content: '演示轮播图B';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,7 +78,7 @@
   font-size: 36rpx;
 }
 .demo-text-3:before{
-  content: 'C';
+  content: '演示轮播图C';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,10 +93,10 @@ button:last-child{
 }
 .page-section-title{
   padding: 0;
-} */
+}
 .swiper-item{
   display: block;
-  height: 230rpx;
+  height: 200rpx;
 }
 .page-section-title{
   margin-top: 60rpx;

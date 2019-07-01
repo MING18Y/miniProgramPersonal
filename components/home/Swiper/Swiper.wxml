@@ -9,7 +9,7 @@
   next-margin="{{nextMargin}}px">
   <block wx:for="{{background}}" wx:key="*this">
     <swiper-item>
-      <view class="swiper-item {{item}}">{{item}}</view>
+      <view class="swiper-item {{item}}"></view>
     </swiper-item>
   </block>
 </swiper>

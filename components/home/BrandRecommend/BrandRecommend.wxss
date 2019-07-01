@@ -1,12 +1,12 @@
 .branch_recommend .products {
   display: flex;
   flex-wrap: wrap;
+  padding: 20rpx;
 }
 .branch_recommend .products .product {
   width: 25%;
   box-sizing: border-box;
-  border-top: 1px solid #f5f5f5;
-  border-left: 1px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
   background-color: #ffffff;
 }
 .branch_recommend .products .product .product-img {
